@@ -11,6 +11,8 @@ $y = 2;
     <title>Document</title>
 </head>
 <body>
+A= <?= $x ?>
+<p>B= <?= $y ?></p>
 <p>Součet: <?= $x ?> + <?= $y ?> = <?= $x + $y ?></p>
 
 <p>Rozdíl: <?= $x ?> - <?= $y ?> = <?= $x - $y ?></p>
