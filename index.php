@@ -5,7 +5,7 @@ $y = 2;
 $soucet = $x + $y;
 $rozdil = $x - $y;
 $soucin = $x * $y;
-$podil = $x / $y;
+
 
 
 
@@ -13,7 +13,7 @@ $podil = $x / $y;
 if ($y != 0) {
     $podil = $x / $y;
 } else {
-    $podil = "nelze dělit nulou"
+    $podil = "nelze dělit nulou";
 }
 
 ?>
