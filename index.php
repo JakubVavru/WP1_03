@@ -10,10 +10,10 @@ $soucin = $x * $y;
 
 
 
-if ($y != 0) {
-    $podil = $x / $y;
-} else {
-    $podil = "nelze dělit nulou";
+    if ($y != 0) {
+         $podil = $x / $y;
+    } else {
+        $podil = "nelze dělit nulou";
 }
 
 ?>
