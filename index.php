@@ -2,7 +2,26 @@
 $x = 24;
 $y = 2;
 
+$soucet = $x + $y;
+$rozdil = $x - $y;
+$soucin = $x * $y;
+$podil = $x / $y;
+
+
+
+
+if ($y != 0) {
+    $podil = $x / $y;
+} else {
+    $podil = "nelze dělit nulou"
+}
+
 ?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,13 +32,13 @@ $y = 2;
 <body>
 A= <?= $x ?>
 <p>B= <?= $y ?></p>
-<p>Součet: <?= $x ?> + <?= $y ?> = <?= $x + $y ?></p>
+<p>Součet: <?= $x ?> + <?= $y ?> = <?= $soucet ?></p>
 
-<p>Rozdíl: <?= $x ?> - <?= $y ?> = <?= $x - $y ?></p>
+<p>Rozdíl: <?= $x ?> - <?= $y ?> = <?= $rozdil ?></p>
 
-<p>Součin: <?= $x ?> x <?= $y ?> = <?= $x * $y ?></p>
+<p>Součin: <?= $x ?> x <?= $y ?> = <?= $soucin ?></p>
 
-<p>Podíl: <?= $x ?> : <?= $y ?> = <?= $x / $y ?></p>
+<p>Podíl: <?= $x ?> : <?= $y ?> = <?= $podil ?></p>
 
 </body>
 </html>
